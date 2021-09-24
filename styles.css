@@ -3,6 +3,39 @@ body {
     color: #000;
 }
 
+header {
+    background: linear-gradient(139.99deg, #3F4FD7 22.82%, rgba(14, 25, 116, 0.86) 82.13%);
+}
+
+.contact {
+    border: none;
+    border-radius: 50px;
+    background: #71D5FF3D;
+}
+
+@media (max-width: 600px) {
+    .bg {
+        background: rgba(14, 25, 116, 0.86) 82.13%;
+        color: #ffffff;
+    }
+}
+
+.text-pink{
+    color: #FF688C;
+}
+
+.section__porfolio,
+.portfolio__section{
+    padding: 0 75px;
+}
+
+@media screen and (max-width:900px) {
+    .section__porfolio,
+    .portfolio__section{
+        padding: 0;
+    }
+}
+
 .team-text,
 .work-section {
     width: 615px;
