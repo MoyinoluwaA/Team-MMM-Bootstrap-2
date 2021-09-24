@@ -1,5 +1,6 @@
 body {
     font-family: 'Inter', sans-serif;
+    color: #000;
 }
 
 header {
@@ -10,9 +11,7 @@ header {
     border: none;
     border-radius: 50px;
     background: #71D5FF3D;
-    ;
 }
-
 
 @media (max-width: 600px) {
     .bg {
@@ -34,5 +33,57 @@ header {
     .section__porfolio,
     .portfolio__section{
         padding: 0;
+    }
+}
+
+.team-text,
+.work-section {
+    width: 615px;
+}
+
+.team-text h2 {
+    color: #FF688C;
+    font-weight: 900;
+    font-size: 18px;
+}
+
+.team-text h3,
+.work-section h2 {
+    font-weight: 900;
+    font-size: 38px;
+}
+
+.team-text p {
+    color: #7F7E7E;
+    font-size: 18px;
+}
+
+.team-member-img-box img {
+    width: 100%;
+}
+
+.team-member h4 {
+    font-size: 18px;
+}
+
+.team-member p {
+    color: #696969;
+}
+
+.work-section button {
+    background: linear-gradient(101.53deg, #127CFF -9.34%, #2FC1FE 106.23%);
+    border-radius: 90px;
+    padding: 11px 32px;
+}
+
+footer li,
+footer p {
+    color: #797979;
+}
+
+@media screen and (max-width: 768px) {
+    .team-text,
+    .work-section {
+        width: 100%;
     }
 }
