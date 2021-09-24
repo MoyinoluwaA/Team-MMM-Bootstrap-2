@@ -1,3 +1,21 @@
 body {
     font-family: 'Inter', sans-serif;
 }
+header {
+    background: linear-gradient(139.99deg, #3F4FD7 22.82%, rgba(14, 25, 116, 0.86) 82.13%);
+}
+
+.contact {
+    border: none;
+    border-radius: 50px;
+    background: #71D5FF3D;
+    ;
+}
+
+
+@media (max-width: 600px) {
+    .bg {
+        background: rgba(14, 25, 116, 0.86) 82.13%;
+        color: #ffffff;
+    }
+}
